@@ -1,0 +1,116 @@
+ElectricFence/
+├── index.html
+├── styles.css
+└── images/
+    └── logo.png
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electric Fence - Elektronikus Zene</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Electric Fence Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="#home">Kezdőlap</a></li>
+                <li><a href="#music">Zenék</a></li>
+                <li><a href="#concerts">Koncertek</a></li>
+                <li><a href="#contact">Kapcsolat</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Üdvözöljük az Electric Fence hivatalos oldalán!</h1>
+        <p>Elektronikus zenét játszunk a legjobb bulikhoz és fesztiválokhoz. Csatlakozzon hozzánk és élvezze a zenét!</p>
+    </section>
+
+    <section id="music">
+        <h2>Zenék</h2>
+        <p>Fedezd fel legújabb számainkat és albumainkat!</p>
+        <!-- Add your music embeds or links here -->
+    </section>
+
+    <section id="concerts">
+        <h2>Koncertek</h2>
+        <p>Ne hagyja ki a következő koncertjeinket!</p>
+        <!-- Add a list or calendar of upcoming concerts here -->
+    </section>
+
+    <section id="contact">
+        <h2>Kapcsolat</h2>
+        <p>Lépjen kapcsolatba velünk a következő elérhetőségek valamelyikén:</p>
+        <ul>
+            <li>Email: contact@electricfence.com</li>
+            <li>Telefon: +36 30 123 4567</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Electric Fence. Minden jog fenntartva.</p>
+    </footer>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .logo {
+    max-width: 150px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+section#home {
+    background-color: #333;
+    color: white;
+}
+
+section#music,
+section#concerts,
+section#contact {
+    background-color: #fff;
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
